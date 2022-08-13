@@ -1,0 +1,35 @@
+.projects{
+    width: 100%;
+    /* height: 100vh; */
+    border: 1px solid green;
+    /* background-color: antiquewhite; */
+    margin-top: 10rem;
+    
+}
+
+.project_list{
+    display: grid;
+    padding-top: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    border: 1px solid red;
+    /* height: 80vh; */
+}
+
+.project_list>div{
+    border: 1px solid red;
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+}
+
+
+.text{
+    margin-top: 5%;
+    line-height: 30px;
+    color: bisque;
+    
+}
+
+
