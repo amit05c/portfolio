@@ -53,14 +53,31 @@
     font-size: 100%;
     background-color: aqua;
     padding: 2%;
-    border-radius: 8%;
-    margin: 2%;
+    border-radius: 5%;
+    margin: 3%;
     border: none;
     cursor: pointer;
 }
 
 .project_list>div>div>a{
     /* background-color: whitesmoke; */
+}
+
+.techstack{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    color: #22283e;
+    border: 1px solid black;
+     /* font-family:  sans-serif; */
+     padding: 1rem;
+     
+}
+
+.techstack>div{
+    display: flex;
+    gap:1rem;
+    font-size: 30px;
 }
 
 

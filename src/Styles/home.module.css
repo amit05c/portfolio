@@ -2,7 +2,7 @@
 
 
 .home{
-    /* background: red; */
+    background-color: #22283e;
     /* height: 200vh; */
     /* width: 100%; */
     box-sizing: border-box;
@@ -18,7 +18,7 @@
 
 
 .photo{
-    width: 100%;
+    width: 90%;
      position: relative;
      top: 2rem;
      
@@ -38,6 +38,7 @@
 }
 
 .intro{
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     width: 90%;
@@ -50,6 +51,7 @@
 
 .intro>div{
     /* border:  1px solid palevioletred; */
+    margin-top: 2rem;
 }
 
 .resume{
@@ -84,7 +86,7 @@
   }
 
 
-  @media (max-width: 720px) {
+  @media (max-width: 920px) {
        .intro{
         display: flex;
         flex-direction: column;
@@ -92,5 +94,13 @@
 
        .photo{
         width: 50%;
+       }
+
+
+       .intro{margin-top: 5rem;}
+
+       .photo{
+        position: relative;
+        top: 5rem;
        }
   }

@@ -26,22 +26,22 @@ const Skills = () => {
       <div className={styles.skills_lists}>
         <div data-aos="fade-left">  <img  src={reactLogo} alt="react_logo" width={"100px"} /></div>
         <div data-aos="fade-left">
-         <img src={Redux} alt={"redux_logo"} style={{backgroundColor:"whitesmoke"}} width={"90px"}/>
+         <img src={Redux} alt={"redux_logo"} style={{backgroundColor:"whitesmoke", borderRadius:"48%"}} width={"100px"} />
         </div>
         
         <div data-aos="fade-right">
-        <img src={javascript} alt={"javascript_logo"} width={"90px"}/>
+        <img src={javascript} alt={"javascript_logo"} width={"85px"} style={{borderRadius:"60%"}}/>
         </div>
 
         <div data-aos="fade-left">
-        <img src={cssLogo} alt={"css_logo"} width={"90px"}/>
+        <img src={cssLogo} alt={"css_logo"} width={"90px"} style={{borderRadius:"50%"}} />
         </div>
 
         <div data-aos="fade-right">
-        <img src={chakraUi} alt={"chakra_logo"} width={"100px"}/>
+        <img src={chakraUi} alt={"chakra_logo"} width={"100px"} style={{borderRadius:"50%"}} />
         </div>
         <div data-aos="fade-right">
-        <img src={bootstrap} alt={"bootstrap_logo"} width={"90px"}/>
+        <img src={bootstrap} alt={"bootstrap_logo"} width={"90px"} style={{borderRadius:"50%"}}/>
         </div>
       </div>
     </div>
