@@ -1,5 +1,5 @@
 .about{
-    width: 100%;
+    /* width: 100px; */
     height: 100vh;
     margin-top: 10rem;
     margin: auto;
@@ -18,9 +18,20 @@
     
 }
 
+.about>div>h1{
+    font-size: 50px;
+    color: aqua;
+
+}
+
 .text{
     margin-top: 5%;
     line-height: 30px;
+    font-size: 20px;
     
     color: bisque;
+}
+
+.email{
+    color: aqua;
 }

@@ -2,9 +2,13 @@
 
 
 .home{
-    /* background: #22283e; */
-    height: 200vh;
+    /* background: red; */
+    /* height: 200vh; */
+    /* width: 100%; */
     box-sizing: border-box;
+    /* border: 1px solid yellow; */
+    /* margin:auto */
+    
 
 }
 
@@ -14,9 +18,9 @@
 
 
 .photo{
-    width: 90%;
+    width: 100%;
      position: relative;
-     top: 5rem;
+     top: 2rem;
      
     /* border: 1px solid greenyellow; */
     /* border-radius: 50%; */
@@ -36,10 +40,16 @@
 .intro{
     display: flex;
     justify-content: center;
+    width: 90%;
     gap: 4rem;
     height: 100vh;
     /* border: 1px solid red; */
+    margin: auto;
     
+}
+
+.intro>div{
+    /* border:  1px solid palevioletred; */
 }
 
 .resume{
@@ -71,4 +81,16 @@
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+
+  @media (max-width: 720px) {
+       .intro{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .photo{
+        width: 50%;
+       }
   }

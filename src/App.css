@@ -2,6 +2,9 @@
 *{
 
   background-color: #22283e;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .App {
@@ -9,6 +12,7 @@
   margin: 0;
   padding: 0;
   /* height: 500vh */
-
+  /* width: 100%; */
+  box-sizing: border-box;
 
 }

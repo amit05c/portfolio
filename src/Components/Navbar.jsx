@@ -61,6 +61,8 @@ const Navbar = () => {
         >About</Link>
         <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className={styles.help}>Projects</Link>
         <Link to="skills" spy={true} smooth={true} offset={50} duration={500} className={styles.help}>Skills</Link>
+        <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className={styles.help}>Contact</Link>
+
     </div>
       
     

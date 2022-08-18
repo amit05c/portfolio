@@ -1,8 +1,19 @@
 .skills{
-    width: 100%;
+    width: 85%;
     height: 100vh;
     margin: auto;
     margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    /* padding-bottom: 20vh; */
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.skills>h1{
+    /* margin-top: 30vh; */
+    margin-bottom: 10vh;
+    color: aqua;
+    font-size: 50px;
 }
 
 
@@ -22,4 +33,11 @@
 .skills_lists>div{
     /* height: 100px; */
     /* border: 1px solid seashell; */
+}
+
+@media (max-width: 720px) {
+    .skills_lists{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }

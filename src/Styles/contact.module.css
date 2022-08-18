@@ -1,0 +1,82 @@
+
+.contact{
+    /* width: 100%; */
+    height: 60vh;
+    text-align: center;
+    /* border: 1px solid white; */
+    color: whitesmoke;
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+.contact>h1{
+    font-size: 50px;
+    color: aqua;
+
+}   
+
+
+
+.contact_list{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 5%;
+    box-sizing: border-box;
+}
+
+.contact_list>div{
+    font-size: 200%;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+
+.logo{
+    color: antiquewhite;
+    
+}
+
+.logo:hover{
+    text-decoration: underline;
+    color: rgb(98, 0, 255);
+}
+
+.copy{
+    color: whitesmoke;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:720px) {
+
+    .contact{
+        width: 100%;
+    }
+
+    
+    .contact_list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* margin-top: 10%; */
+        
+        /* gap: 2%; */
+        box-sizing: border-box;
+    }
+
+    .contact_list>div{
+        /* width: 100%; */
+        margin: auto;
+        /* font-size: 200%; */
+         cursor: pointer;
+
+    }
+}

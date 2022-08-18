@@ -12,12 +12,19 @@
     padding-top: 2rem;
 }
 
+
+.help{
+  width: 15%;
+  height: 20px;
+  border-radius: 5%;
+  padding: 2%;
+}
+
 .help:hover {
     /* transform: scale(1.2); */
     /* transition: all 0.9s ease; */
     /* text-decoration: underline; */
     background-color: aqua;
-    border-radius: 10%;
     color: black;
   }
 
@@ -47,25 +54,46 @@
     .mobile_view{
 
     /* background-color: white; */
-    height: 10rem;
+    height: 15rem;
     display: grid;
     grid-column: 2/5;
     align-items: center;
     padding-left: 3rem;
+    padding-top: 3rem;
+  
     transition: all 2s linear;
     transform-origin: top;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 20%;
     color: antiquewhite;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: gray;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    /* box-shadow: rgba(98, 155, 192, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     }
 
 
+    .help{
+      /* width: 70%; */
+      font-size: 140%;
+      background-color: gray;
+      margin-right: 20%;
+      cursor: pointer;
+    }
+
+    .help:hover{
+      background-color: aqua;
+    }
+
      .main_nav >.hamburger_menu{
         display: block;
+        font-size: 30px;
         width: 10%;
-        margin-left: 90%;
+        margin-top: 10%;
+        position: absolute;
+        right: 10%;
+        /* margin-left: 90%; */
     }
 
 

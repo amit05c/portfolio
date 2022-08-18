@@ -1,27 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@900&display=swap');
+
+
 .projects{
-    width: 100%;
+    /* width: 90%; */
     /* height: 100vh; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     /* background-color: antiquewhite; */
     margin-top: 10rem;
-    
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 50vh;
 }
 
 .project_list{
     display: grid;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
-    border: 1px solid red;
+    margin: auto;
+    /* border: 1px solid red; */
     /* height: 80vh; */
+
+}
+
+.projects>h1{
+    color: aqua;
+    font-size: 50px;
+    margin-bottom: 10vh;
+    
+      /* font-family:  sans-serif; */
 }
 
 .project_list>div{
-    border: 1px solid red;
-    height: 60vh;
-    width: 80%;
+    border: 4px solid aqua;
+    /* height: 60vh; */
+    padding: 2%;
+    width: 70%;
     margin: auto;
     background-color: azure;
+    border-radius: 5%;
 }
 
 
@@ -30,6 +47,28 @@
     line-height: 30px;
     color: bisque;
     
+}
+
+.project_list>div>div>a>button{
+    font-size: 100%;
+    background-color: aqua;
+    padding: 2%;
+    border-radius: 8%;
+    margin: 2%;
+    border: none;
+    cursor: pointer;
+}
+
+.project_list>div>div>a{
+    /* background-color: whitesmoke; */
+}
+
+
+@media (max-width: 720px) {
+    .project_list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 
