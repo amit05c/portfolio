@@ -36,8 +36,15 @@
 }
 
 @media (max-width: 720px) {
+
+    .skills{
+        border: 1px solid red;
+    }
     .skills_lists{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+
+    
 }

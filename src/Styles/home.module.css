@@ -2,12 +2,14 @@
 
 
 .home{
+    margin: 0;
+    padding: 0;
     background-color: #22283e;
     /* height: 200vh; */
     /* width: 100%; */
-    box-sizing: border-box;
+    margin:auto;
+    /* box-sizing: border-box; */
     /* border: 1px solid yellow; */
-    /* margin:auto */
     
 
 }
@@ -18,7 +20,7 @@
 
 
 .photo{
-    width: 90%;
+    width: 100%;
      position: relative;
      top: 2rem;
      
@@ -41,7 +43,7 @@
     margin-top: 10rem;
     display: flex;
     justify-content: center;
-    width: 90%;
+    /* width: 90%; */
     gap: 4rem;
     height: 100vh;
     /* border: 1px solid red; */
@@ -87,6 +89,12 @@
 
 
   @media (max-width: 920px) {
+
+    .home{
+        margin-top: -5rem;
+        width: 100%;
+        /* margin-right: 5rem; */
+    }
        .intro{
         display: flex;
         flex-direction: column;
