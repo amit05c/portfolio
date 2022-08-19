@@ -92,7 +92,7 @@
 
     .projects{
         /* border: 1px solid orchid; */
-        width: 80%;
+        width: 90%;
     }
     .project_list{
         display: grid;
@@ -101,7 +101,7 @@
     }
 
    .project_list>div{
-    width: 50%;
+    width: 70%;
     /* border: 1px solid red; */
     border-radius: 3%;
     padding: 3rem;

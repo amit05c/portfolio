@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import styles from "../Styles/projects.module.css"
 import image1 from '../Images/max1.png'
 import image2 from "../Images/mythressa.png"
@@ -11,24 +11,29 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { RiReactjsLine } from 'react-icons/ri';
 import { SiChakraui } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
-
-
-
-
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { ScreenContext } from '../screenContext/ScreenContext'
+
 
 const Projects = () => {
+  // const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  const {windowDimensions}= useContext(ScreenContext)
+  const width=windowDimensions.width
 
+  console.log(windowDimensions)
   useEffect(()=>{
+    
     Aos.init({duration:1000})
+    
   },[])
 
   return (
     <div  className={styles.projects} id={"projects"}>
-      <h1 data-aos="fade-up" className={styles.text}>Projects</h1>
+      <h1 data-aos={width>920 ? "fade-up" : ""} 
+      className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
-        <div data-aos="fade-left"  >
+        <div data-aos={width>920 ? "fade-left" : ""}  >
           <img src={image1} alt="max_fashion" width={"100%"}  />
           <h2 style={{backgroundColor:"whitesmoke"}}>Max Fashion clone</h2>
           <p style={{backgroundColor:"whitesmoke", borderRadius:"10%"}}>Max fashion is an online e-comerce website.
@@ -56,7 +61,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div data-aos="fade-right">
+        <div data-aos={width>920 ? "fade-right" : ""} >
         <img src={image2} alt="mythressa_clone" width={"100%"} />
           <h2 style={{backgroundColor:"whitesmoke"}}>Mythresa clone</h2>
           <p style={{backgroundColor:"whitesmoke"}}>It is cloned in construct week project. This is a collaborative project of 5 members.</p>
@@ -82,7 +87,7 @@ const Projects = () => {
 
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos={width>920 ? "fade-left" : ""} >
         <img src={image3} alt="apple_clone" width={"100%"} />
           <h2 style={{backgroundColor:"whitesmoke"}}>Apple cone</h2>
           <p style={{backgroundColor:"whitesmoke"}}>This is a collaborative project of 5 members. <br>

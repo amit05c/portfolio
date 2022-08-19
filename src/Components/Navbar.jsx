@@ -8,6 +8,7 @@ import { PlacementExample } from './Menu';
 const Navbar = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+    
   //  const handleMenuIcon = ()=>{
   // setShowMediaIcons(!showMediaIcons)
   //  }
@@ -40,8 +41,8 @@ const Navbar = () => {
       setShowMediaIcons(false)
     }
    },[windowDimensions.width])
-   console.log(windowDimensions)
-   console.log(showMediaIcons)
+  //  console.log(windowDimensions)
+  //  console.log(showMediaIcons)
   return (
     <div className={styles.main_nav}>
            {/* <PlacementExample size={"md"} marginTop={'50px'} />  */}
