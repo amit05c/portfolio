@@ -84,18 +84,18 @@
 @media (max-width: 720px) {
 
     .projects{
-        border: 1px solid orchid;
+        /* border: 1px solid orchid; */
         width: 100%;
     }
     .project_list{
         display: grid;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         grid-template-columns: repeat(1,1fr);
     }
 
    .project_list>div{
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    }
 
    .techstack{
