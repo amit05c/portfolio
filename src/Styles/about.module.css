@@ -1,13 +1,13 @@
 .about{
     /* width: 100px; */
-    height: 100vh;
-    margin-top: 10rem;
+    height: 80vh;
+    margin-top: 5rem;
     margin: auto;
 
     /* background-color: antiquewhite; */
     display: flex;
     gap:5rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* border: 1px solid red; */
     text-align: center;
     color: antiquewhite;

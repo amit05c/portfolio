@@ -59,9 +59,9 @@
     cursor: pointer;
 }
 
-.project_list>div>div>a{
+/* .project_list>div>div>a{ */
     /* background-color: whitesmoke; */
-}
+/* } */
 
 .techstack{
     display: flex;
@@ -81,11 +81,18 @@
 }
 
 
+.techstack>h1{
+    font-size: larger;
+    color: #22283e;
+    font-weight: 700;
+}
+
+
 @media (max-width: 920px) {
 
     .projects{
         /* border: 1px solid orchid; */
-        width: 100%;
+        width: 80%;
     }
     .project_list{
         display: grid;
@@ -94,10 +101,10 @@
     }
 
    .project_list>div{
-    width: 40%;
+    width: 50%;
     /* border: 1px solid red; */
-    border-radius: 5%;
-    padding: 2rem;
+    border-radius: 3%;
+    padding: 3rem;
    }
 
    .techstack{

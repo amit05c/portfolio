@@ -73,7 +73,7 @@
     outline: none;
     color: #fff;
     background-color: #04AA6D;
-    border: none;
+    /* border: 1px solid red; */
     border-radius: 15px;
     box-shadow: 0 9px #999;
 
@@ -89,9 +89,9 @@
 
 
   .logo{
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
-    top: 1rem;
+    /* top: 1rem; */
     left: 1rem;
     /* border: 1px solid red; */
     /* background-color: rgb(112, 103, 103); */
@@ -107,19 +107,48 @@
         /* margin-right: 5rem; */
     }
        .intro{
+        margin-top: 5rem;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        gap: 3rem;
        }
+
+      
 
        .photo{
-        width: 40%;
+        width: 30%;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 20%;
+        left: 15%;
        }
 
 
-       .intro{margin-top: 5rem;}
+       /* .intro{margin-top: 5rem;} */
 
        .photo{
         position: relative;
-        top: 5rem;
+    
+        left: 30%;
+       }
+
+
+
+       .text{
+        margin-top: 5%;
+        /* font-size: x-large; */
+        font-family: 'Poppins', sans-serif;
+        color: bisque;
+       }
+
+       .logo{
+        /* font-size: 50px; */
+        position: relative;
+        /* top: 1rem; */
+        /* left: 1rem; */
+        /* border: 1px solid red; */
+        /* background-color: rgb(112, 103, 103); */
+        color: whitesmoke;
        }
   }

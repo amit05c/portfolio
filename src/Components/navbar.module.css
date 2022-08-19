@@ -1,8 +1,9 @@
 .navbar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     color: antiquewhite;
-    cursor: pointer;
+    /* cursor: pointer; */
     width: 40%;
     
     /* border: 1px solid red; */
@@ -10,14 +11,17 @@
     margin: auto;
     margin-left: 50%;
     padding-top: 2rem;
+    cursor: pointer;
 }
 
 
 .help{
   width: 15%;
-  height: 20px;
+  /* height: 20px; */
   border-radius: 5%;
   padding: 2%;
+  margin-top: -1rem;
+  /* border: 1px solid red; */
 }
 
 .help:hover {
@@ -80,14 +84,15 @@
 
 
     .help{
-      width: 100%;
+      width: 30%;
       font-size: 120%;
-      padding: 1rem;
+      padding: 0.5rem;
       /* border: 1px solid red; */
       /* background-color: gray; */
       /* margin-right: 20%; */
       text-align: center;
       cursor: pointer;
+      margin: auto;
     }
 
     .help:hover{

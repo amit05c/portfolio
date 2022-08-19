@@ -40,7 +40,7 @@ const Projects = () => {
 
 
           <div className={styles.techstack}>
-            <h2>Techstack :</h2>
+            <h1>Techstack :</h1>
             <div>
             <RiReactjsLine/>
             <SiChakraui/>
@@ -63,7 +63,7 @@ const Projects = () => {
           <p style={{backgroundColor:"whitesmoke"}}>Login,signup,Filter,sort,cart,and payment and opt authentication funtionalities are built.</p>
           
           <div className={styles.techstack}>
-            <h2>Techstack :</h2>
+            <h1>Techstack :</h1>
             <div>
             <FaHtml5/>
             <IoLogoCss3/>
@@ -90,7 +90,7 @@ const Projects = () => {
           Login,signup, filter functionality are developed.
           </p>
           <div className={styles.techstack}>
-            <h2>Techstack :</h2>
+            <h1>Techstack :</h1>
             <div>
             <FaHtml5/>
             <IoLogoCss3/>

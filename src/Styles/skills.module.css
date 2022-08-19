@@ -1,6 +1,6 @@
 .skills{
-    width: 85%;
-    height: 100vh;
+    width: 90%;
+    height: 80vh;
     margin: auto;
     margin-top: 2rem;
     /* margin-bottom: 2rem; */
@@ -27,22 +27,30 @@
 .skills_lists{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
     /* border: 1px solid red; */
     gap: 1rem;
+    
+    
 }
 .skills_lists>div{
     /* height: 100px; */
     /* border: 1px solid seashell; */
+    width: 50%;
+    padding: 1rem;
+
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
 
     .skills{
         /* border: 1px solid red; */
+        width: 70%;
     }
     .skills_lists{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    
     }
 
 

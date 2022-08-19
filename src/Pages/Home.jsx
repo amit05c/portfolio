@@ -20,7 +20,7 @@ const Home = () => {
         <Navbar/>
         <div className={styles.intro}>
           <div > 
-         <img className={styles.photo} src={Images} alt="amit_photo" width={"200px"} />
+         <img className={styles.photo} src={Images} alt="amit_photo" />
 
           </div>
           {/* style={{border: "1px solid green"}} */}
@@ -28,11 +28,14 @@ const Home = () => {
         <h1 className={styles.text}>Hi, 👋 </h1>
         <h1 className={styles.text}>I am <span className={styles.name}>Amit</span></h1>
          <h2 className={styles.text}>Frontend Developer</h2>
-         
-         <a href={resume} download><button className={styles.resume}> Resume</button></a>
+
+         <div style={{display:"flex", justifyContent:"center", marginTop:"1rem"}}>
+        <a href={resume} download><button className={styles.resume}> Resume</button></a>
          <a className={styles.logo} href="https://github.com/amit05c" target={"_blank"}><AiFillGithub/></a>
          
         </div>
+        </div>
+        
       </div>
 
         <About />

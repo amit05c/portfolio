@@ -1,17 +1,16 @@
 import React, { useState } from 'react'
-// import { Link } from 'react-router-dom'
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import styles from "./navbar.module.css"
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useEffect } from 'react';
+import { PlacementExample } from './Menu';
 
 const Navbar = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-   const handleMenuIcon = ()=>{
-  setShowMediaIcons(!showMediaIcons)
-   }
+  //  const handleMenuIcon = ()=>{
+  // setShowMediaIcons(!showMediaIcons)
+  //  }
    
    function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -45,16 +44,19 @@ const Navbar = () => {
    console.log(showMediaIcons)
   return (
     <div className={styles.main_nav}>
+           {/* <PlacementExample size={"md"} marginTop={'50px'} />  */}
+            {/* <Box/> */}
 
-<div className={`${styles.hamburger_menu}`}>
+{/* <div className={`${styles.hamburger_menu}`}>
             <a href="#" onClick={handleMenuIcon}>
-              <GiHamburgerMenu />
+            <GiHamburgerMenu />
             </a>
-          </div>
-
-    <div className={showMediaIcons && windowDimensions.width<920 ? styles.mobile_view : styles.navbar }
-        
-    >
+            
+          </div> */}
+          {/* <PlacementExample border='2px' size="md"/> */}
+    {/* <div className={showMediaIcons && windowDimensions.width<920 ? styles.mobile_view : styles.navbar } */}
+   {windowDimensions.width<920 ? (<PlacementExample size={"md"} pos="absolute" />) : 
+        <div className={styles.navbar}>
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}
         // onClick={closeMenu} 
         className={styles.help}
@@ -64,6 +66,8 @@ const Navbar = () => {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className={styles.help}>Contact</Link>
 
     </div>
+   }
+    
       
     
 
