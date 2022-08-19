@@ -45,7 +45,7 @@
     justify-content: center;
     /* width: 90%; */
     gap: 4rem;
-    /* height: 100vh; */
+    height: 100vh;
     /* border: 1px solid red; */
     margin: auto;
     
@@ -88,6 +88,17 @@
   }
 
 
+  .logo{
+    font-size: 50px;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    /* border: 1px solid red; */
+    /* background-color: rgb(112, 103, 103); */
+    color: whitesmoke;
+  }
+
+
   @media (max-width: 920px) {
 
     .home{
@@ -101,7 +112,7 @@
        }
 
        .photo{
-        width: 50%;
+        width: 40%;
        }
 
 

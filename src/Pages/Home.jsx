@@ -8,7 +8,7 @@ import styles from "../Styles/home.module.css"
 import Images from "../Images/amit_image.png"
 import Contact from './Contact'
 import resume from "../Resume/resume.pdf"
-
+import { AiFillGithub } from 'react-icons/ai';
 
 
 const Home = () => {
@@ -30,6 +30,7 @@ const Home = () => {
          <h2 className={styles.text}>Frontend Developer</h2>
          
          <a href={resume} download><button className={styles.resume}> Resume</button></a>
+         <a className={styles.logo} href="https://github.com/amit05c" target={"_blank"}><AiFillGithub/></a>
          
         </div>
       </div>

@@ -95,7 +95,9 @@
 
    .project_list>div{
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-radius: 5%;
+    padding: 2rem;
    }
 
    .techstack{
