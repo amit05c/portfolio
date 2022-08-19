@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
           </div>
 
-    <div className={showMediaIcons && windowDimensions.width<720 ? styles.mobile_view : styles.navbar }
+    <div className={showMediaIcons && windowDimensions.width<920 ? styles.mobile_view : styles.navbar }
         
     >
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}

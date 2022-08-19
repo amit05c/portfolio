@@ -81,7 +81,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
 
     .projects{
         /* border: 1px solid orchid; */
@@ -95,17 +95,21 @@
 
    .project_list>div{
     width: 40%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
    }
 
    .techstack{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    }
 
    .text{
     margin-top: 5%;
     line-height: 40px;
+    line-gap-override: inherit;
     color: bisque;
    }
 

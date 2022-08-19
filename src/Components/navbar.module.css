@@ -48,7 +48,7 @@
         grid-column: 2/4;
         position: relative;
         left: 60%;
-        top: 10%;
+        top: 20%;
         z-index: 99;
     }
 
@@ -100,7 +100,7 @@
         width: 10%;
         margin-top: 10%;
         position: absolute;
-        right: 10%;
+        right: 20%;
         /* margin-left: 90%; */
     }
 
