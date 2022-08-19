@@ -57,9 +57,13 @@ export function PlacementExample({ size, pos }) {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
               className={styles.help}
-              onClose={onClose}
+              onClick={()=>{
+                setTimeout(()=>{
+                  onClose()
+                },500)
+              }}
             >
               About
             </Link>
@@ -69,9 +73,13 @@ export function PlacementExample({ size, pos }) {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
               className={styles.help}
-              onClick={onClose}
+              onClick={()=>{
+                setTimeout(()=>{
+                  onClose()
+                },500)
+              }}
             >
               Projects
             </Link>
@@ -80,9 +88,13 @@ export function PlacementExample({ size, pos }) {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1500}
               className={styles.help}
-              onClick={onClose}
+              onClick={()=>{
+                setTimeout(()=>{
+                  onClose()
+                },500)
+              }}
             >
               Skills
             </Link>
@@ -91,9 +103,13 @@ export function PlacementExample({ size, pos }) {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={2000}
               className={styles.help}
-              onClick={onClose}
+              onClick={()=>{
+                setTimeout(()=>{
+                  onClose()
+                },500)
+              }}
             >
               Contact
             </Link>
