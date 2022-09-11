@@ -16,11 +16,12 @@
 
 
 .help{
-  width: 15%;
+  width: 17%;
   /* height: 20px; */
   border-radius: 5%;
   padding: 2%;
   margin-top: -1rem;
+  font-size: larger;
   /* border: 1px solid red; */
 }
 
@@ -29,8 +30,11 @@
     /* transition: all 0.9s ease; */
     /* text-decoration: underline; */
     background-color: aqua;
+    font-size: larger;
     color: black;
   }
+
+
 
   
 

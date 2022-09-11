@@ -1,8 +1,9 @@
 .about{
     /* width: 100px; */
-    height: 80vh;
+    /* height: 80vh; */
     margin-top: 5rem;
-    margin: auto;
+    margin-bottom: 5rem;
+    /* margin: auto; */
 
     /* background-color: antiquewhite; */
     display: flex;
@@ -35,3 +36,11 @@
 .email{
     color: aqua;
 }
+
+
+@media (min-width: 921px) {
+    .about{
+        height: 100vh;
+        
+    }
+  }

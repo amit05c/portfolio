@@ -75,7 +75,7 @@
     .contact_list>div{
         /* width: 100%; */
         margin: auto;
-        /* font-size: 200%; */
+        font-size: 200%;
          cursor: pointer;
 
     }

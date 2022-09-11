@@ -23,6 +23,7 @@
     width: 100%;
      position: relative;
      top: 2rem;
+     margin-bottom: 2rem;
      
     /* border: 1px solid greenyellow; */
     /* border-radius: 50%; */
@@ -45,7 +46,7 @@
     justify-content: center;
     /* width: 90%; */
     gap: 4rem;
-    height: 100vh;
+    /* height: 100vh; */
     /* border: 1px solid red; */
     margin: auto;
     
@@ -112,6 +113,7 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 3rem;
+        /* height: 200vh; */
        }
 
       
@@ -120,7 +122,8 @@
         width: 30%;
         /* border: 1px solid red; */
         position: relative;
-        top: 20%;
+        /* top: 40%; */
+        top:3rem;
         left: 15%;
        }
 
@@ -151,4 +154,11 @@
         /* background-color: rgb(112, 103, 103); */
         color: whitesmoke;
        }
+  }
+
+  @media (min-width: 921px) {
+    .intro{
+        height: 100vh;
+        margin-top: 3rem;
+    }
   }

@@ -1,12 +1,21 @@
 .skills{
     width: 90%;
-    height: 80vh;
+    /* height: 80vh; */
     margin: auto;
     margin-top: 2rem;
     /* margin-bottom: 2rem; */
-    /* padding-bottom: 20vh; */
+    padding:1rem;
     box-sizing: border-box;
     /* border: 1px solid red; */
+    margin-bottom: 5rem;
+}
+
+.logo{
+    border: 3px solid aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 3%;
+    box-shadow: inset;
 }
 
 .skills>h1{
@@ -56,3 +65,12 @@
 
 
 }
+
+
+@media (min-width: 921px) {
+    .skills{
+        margin-top: 15rem;
+        height: 100vh;
+    
+    }
+  }
