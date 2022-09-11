@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5476735c.css",
+    "main.js": "/portfolio/static/js/main.81236e0f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/max1.png": "/portfolio/static/media/max1.a7e9119912d32a99ed44.png",
+    "static/media/mythressa.png": "/portfolio/static/media/mythressa.29db4035f544d71d8780.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.39e54c14b3f85db485f1.pdf",
+    "static/media/amit_image.png": "/portfolio/static/media/amit_image.ead3570363384ab7db17.png",
+    "static/media/apple.png": "/portfolio/static/media/apple.0b3d2d3c759855cc4f24.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.e92750768b4e3df9e72c.png",
+    "static/media/react_logo.png": "/portfolio/static/media/react_logo.283bf42c605cfc49cf49.png",
+    "static/media/css_logo.png": "/portfolio/static/media/css_logo.02d225c7df0b28341d8d.png",
+    "static/media/javascript_logo.png": "/portfolio/static/media/javascript_logo.8618298aa7a3f221cfc1.png",
+    "static/media/Redux.png": "/portfolio/static/media/Redux.543b98d3c75b48613322.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.5476735c.css.map": "/portfolio/static/css/main.5476735c.css.map",
+    "main.81236e0f.js.map": "/portfolio/static/js/main.81236e0f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5476735c.css",
+    "static/js/main.81236e0f.js"
+  ]
+}
