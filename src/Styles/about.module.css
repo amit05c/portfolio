@@ -38,9 +38,18 @@
 }
 
 
-@media (min-width: 921px) {
+@media (max-width: 921px) {
     .about{
+        /* border: 1px solid red; */
         height: 100vh;
         
     }
+
+    .text{
+    margin-top: 5%;
+    line-height: 30px;
+    font-size: 20px;
+    
+    color: bisque;
+}
   }
