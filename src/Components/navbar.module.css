@@ -3,20 +3,25 @@
     justify-content: center;
     align-items: center;
     color: antiquewhite;
+    background-color: #8d8e94;
     /* cursor: pointer; */
-    width: 40%;
+    width: 100%;
     
     /* border: 1px solid red; */
     gap: 2rem;
-    margin: auto;
-    margin-left: 50%;
-    padding-top: 2rem;
+    /* margin: auto; */
+    /* margin-left: 50%; */
+    /* padding-top: 1rem; */
     cursor: pointer;
+    
+    position: fixed;
+    top: 0;
+   z-index: 2;
 }
 
 
 .help{
-  width: 17%;
+  /* width: 17%; */
   /* height: 20px; */
   border-radius: 5%;
   padding: 2%;
