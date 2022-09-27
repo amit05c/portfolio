@@ -128,4 +128,23 @@
 
 }
 
+@media  (max-width: 520px) {
+
+    .project_list>div{
+        width: 90%;
+        /* border: 1px solid red; */
+        border-radius: 1%;
+        padding: 3rem;
+       }
+   
+    .techstack{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+}
+
 

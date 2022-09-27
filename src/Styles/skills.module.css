@@ -7,7 +7,7 @@
     padding:1rem;
     box-sizing: border-box;
     /* border: 1px solid red; */
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
 }
 
 .logo{
@@ -50,6 +50,34 @@
 
 }
 
+@media (max-width: 520px) {
+
+    .skills{
+        margin-top: 0;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    
+
+    .skills_lists{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+
+    .skills_lists>div{
+        /* height: 100px; */
+        /* border: 1px solid seashell; */
+        width: 100%;
+        /* padding: 1rem; */
+        gap: 1rem;
+    
+    }
+
+}
+
+
 @media (max-width: 920px) {
 
     .skills{
@@ -67,10 +95,16 @@
 }
 
 
+
+
+
+
+
+/* 
 @media (min-width: 921px) {
     .skills{
         margin-top: 15rem;
         height: 100vh;
     
     }
-  }
+  } */

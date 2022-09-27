@@ -41,6 +41,7 @@
 
 .logo{
     color: antiquewhite;
+    font-size: 3rem;
     
 }
 
@@ -56,10 +57,16 @@
 }
 
 
-@media (max-width:720px) {
+@media (max-width:821px) {
 
     .contact{
         width: 100%;
+    }
+
+    .logo{
+        color: antiquewhite;
+        font-size: 4rem;
+        
     }
 
     
@@ -75,8 +82,42 @@
     .contact_list>div{
         /* width: 100%; */
         margin: auto;
-        font-size: 200%;
+        /* font-size: 200%; */
+       
          cursor: pointer;
 
     }
 }
+
+
+
+@media (max-width: 520px) {
+
+    .contact_list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* margin-top: 10%; */
+        
+        gap: 1rem;
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+    }
+
+
+    .contact_list>div{
+        /* width: 100%; */
+        margin: auto;
+        /* border: 1px solid white; */
+        /* font-size: 200%; */
+         cursor: pointer;
+         /* height: 10vh */
+
+    }
+
+    .logo{
+        font-size: 3rem;
+        
+    }
+
+}
+
