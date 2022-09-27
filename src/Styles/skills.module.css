@@ -90,6 +90,15 @@
     
     }
 
+    .skills_lists>div{
+        /* height: 100px; */
+        /* border: 1px solid seashell; */
+        width: 100%;
+        /* padding: 1rem; */
+        gap: 1rem;
+    
+    }
+
 
 
 }
