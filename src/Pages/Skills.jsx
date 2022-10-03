@@ -6,6 +6,7 @@ import cssLogo from "../Images/css_logo.png";
 import chakraUi from "../Images/chakra_ui.png";
 import bootstrap from "../Images/bootstrap.png";
 import Redux from "../Images/Redux.png";
+import Dsa from "../Images/dsa_photo.jpeg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -89,6 +90,15 @@ const Skills = () => {
             src={bootstrap}
             alt={"bootstrap_logo"}
             width={"70%"}
+            
+          />
+        </div>
+
+        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+          <img
+            src={Dsa}
+            alt={"bootstrap_logo"}
+            width={"90%"}
             
           />
         </div>

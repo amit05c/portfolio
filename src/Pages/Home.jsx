@@ -9,6 +9,7 @@ import Images from "../Images/amit_image.png"
 import Contact from './Contact'
 import resume from "../Resume/resume.pdf"
 import { AiFillGithub } from 'react-icons/ai';
+import GithubCalendar from './GithubCalendar'
 
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
         <About />
         <Projects  />
         <Skills />
+        <GithubCalendar/>
         <Contact />
 
         
