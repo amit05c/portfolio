@@ -16,7 +16,7 @@ const GithubCalendar = () => {
 
     <GitHubCalendar username="amit05c"  showWeekdayLabels="true" style={{margin:"auto"}} />
 
-    <Box display={"flex"} width={['100%', "80%", "75%"]} m="auto" justifyContent="space-evenly" alignItems={"center"}  gap="1rem" mt={["5rem","3rem",""]}>
+    <Box display={"flex"} width={['100%', "85%", "80%"]} m="auto" justifyContent="space-evenly" alignItems={"center"}  gap="1rem" mt={["5rem","3rem",""]}>
     <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=amit05c&show_icons=true&locale=en" alt="amit05c" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=amit05c&" alt="amit05c" /></p>
