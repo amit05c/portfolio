@@ -14,7 +14,7 @@ const GithubCalendar = () => {
    <Box color="white" margin={"auto"} width={['90%', "80%", "70%"]} p={['0rem',"1rem", "2rem"]} data-aos="fade-up"  height="50vh" >
       <Text  color='aqua' fontSize={["2rem", "2rem", '2.5rem']} m="auto">Github Calendar</Text>
 
-    <GitHubCalendar username="amit05c" year={new Date().getFullYear()} showWeekdayLabels="true" style={{margin:"auto"}} />
+    <GitHubCalendar username="amit05c"  showWeekdayLabels="true" style={{margin:"auto"}} />
    </Box>
   )
 }

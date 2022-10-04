@@ -24,9 +24,11 @@
   width: 12%;
   /* height: 20px; */
   border-radius: 5%;
+  box-sizing: border-box;
   padding: 2%;
   margin-top: -1rem;
-  font-size: large;
+  font:bold;
+  font-size: larger;
   /* border: 1px solid red; */
 }
 
@@ -35,7 +37,8 @@
     /* transition: all 0.9s ease; */
     /* text-decoration: underline; */
     background-color: aqua;
-    font-size: large;
+    font:bolder;
+    font-size: larger;
     color: black;
   }
 
