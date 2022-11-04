@@ -46,7 +46,7 @@ const Projects = () => {
           <div style={{textAlignment:"center"}}>
           <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Clockify Clone</h2>
           <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Clockify is time time tracker website.</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>This is a collaborative project of five members.</p>
+          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>This is a collaborative Fullstack project of five members.</p>
           <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Login, signup, delete, filter functionlities are created</p>
           <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>In Dashboard page data are show as chart format</p>
           </div>
