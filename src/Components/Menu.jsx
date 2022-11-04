@@ -41,7 +41,7 @@ export function PlacementExample({ size, pos }) {
         size={size}
         pos={pos}
         right={"10%"}
-        top={"1%"}
+        top={"2%"}
         colorScheme="blue"
         onClick={onOpen}
       >

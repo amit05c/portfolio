@@ -56,7 +56,7 @@ const Navbar = () => {
           </div> */}
           {/* <PlacementExample border='2px' size="md"/> */}
     {/* <div className={showMediaIcons && windowDimensions.width<920 ? styles.mobile_view : styles.navbar } */}
-   {windowDimensions.width<920 ? (<PlacementExample size={"md"} pos="absolute" />) : 
+   {windowDimensions.width<920 ? (<PlacementExample size={"md"} pos="absolute" mt="4rem" />) : 
         <div className={styles.navbar}>
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}
         // onClick={closeMenu} 

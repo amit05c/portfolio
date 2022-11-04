@@ -6,12 +6,12 @@
     padding: 0;
     background-color: #22283e;
     /* height: 200vh; */
-    /* width: 100%; */
+    width: 100%;
     margin:auto;
     /* box-sizing: border-box; */
     /* border: 1px solid yellow; */
     
-
+    overflow-x: hidden;
 }
 
 /* .home > Navbar{
@@ -155,6 +155,26 @@
         color: whitesmoke;
        }
   }
+
+
+
+  @media (max-width: 520px) {
+
+    .home{
+        margin-top: -5rem;
+        width: 100%;
+        /* margin-right: 5rem; */
+    }
+       .intro{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3rem;
+        /* height: 200vh; */
+       }
+
+    }
 
   @media (min-width: 921px) {
     .intro{
