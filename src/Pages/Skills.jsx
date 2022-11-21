@@ -7,10 +7,17 @@ import chakraUi from "../Images/chakra_ui.png";
 import bootstrap from "../Images/bootstrap.png";
 import Redux from "../Images/Redux.png";
 import Dsa from "../Images/dsa_photo.jpeg";
-
+import { DiMongodb } from 'react-icons/di';
+import { FaHtml5,FaNodeJs } from 'react-icons/fa';
+import { SiChakraui,SiRedux,SiExpress } from 'react-icons/si';
+import { RiReactjsLine } from 'react-icons/ri';
+// import { IoLogoJavascript } from 'react-icons/io';
+import { TbBrandJavascript,TbBrandTailwind } from 'react-icons/tb';
+import { IoLogoCss3 } from 'react-icons/io';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { ScreenContext } from "../screenContext/ScreenContext";
+import { Text } from "@chakra-ui/react";
 
 // const skills= [
 //   // {image:}
@@ -26,81 +33,80 @@ const Skills = () => {
 
   return (
     <div className={`${styles.skills} ${styles.text}`} id={"skills"}>
-      <h1 data-aos={width > 920 ? "fade-up" : ""} style={{marginTop:"8rem"}}>Skills</h1>
+      <h1 data-aos={width > 920 ? "fade-up" : ""}>Skills</h1>
       <div className={styles.skills_lists}>
         <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
-          <img src={reactLogo} alt="react_logo" width={"70%"}  />
+          {/* <img src={reactLogo} alt="react_logo" width={"70%"}  /> */}
+          < FaNodeJs className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Node Js</Text>
+
         </div>
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
-          <img
-            src={Redux}
-            alt={"redux_logo"}
-            style={{ backgroundColor: "whitesmoke" }}
-            width={"80%"}
-          />
-        </div>
-
-
-
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
-          <img
-            src={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png"}
-            alt={"redux_logo"}
-            style={{ backgroundColor: "whitesmoke" }}
-            width={"80%"}
-          />
+         
+          <SiExpress  className={styles.photo}/>
+          <Text fontSize={['lg','lg','lg']}>Express Js</Text>
         </div>
 
 
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
-          <img
-            src={"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"}
-            alt={"redux_logo"}
-            style={{ backgroundColor: "whitesmoke" }}
-            width={"70%"}
-          />
+         
+          <DiMongodb className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Mongo</Text>
+        </div>
+
+
+
+        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+         
+          <RiReactjsLine  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>React</Text>
         </div>
 
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
-          <img src={javascript} alt={"javascript_logo"} width={"50%"} />
+          <SiRedux  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Redux</Text>
         </div>
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
-          <img
-            src={cssLogo}
-            alt={"css_logo"}
-            width={"70%"}
           
-          />
+           <TbBrandJavascript  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Javascript</Text>
+
         </div>
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
-          <img
+          {/* <img
             src={chakraUi}
             alt={"chakra_logo"}
             width={"80%"}
             
-          />
+          /> */}
+           <FaHtml5  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>HTML</Text>
         </div>
         <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
-          <img
+          {/* <img
             src={bootstrap}
             alt={"bootstrap_logo"}
             width={"70%"}
             
-          />
+          /> */}
+           <IoLogoCss3  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>CSS</Text>
+
         </div>
 
         <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
-          <img
-            src={Dsa}
-            alt={"bootstrap_logo"}
-            width={"90%"}
-            
-          />
+         <SiChakraui  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Chakra UI</Text>
+        </div>
+
+        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+         <TbBrandTailwind  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Tailwind CSS</Text>
         </div>
       </div>
     </div>

@@ -20,10 +20,12 @@
 
 
 .photo{
-    width: 100%;
-     position: relative;
-     top: 2rem;
-     margin-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+     /* position: relative;
+     top: 1rem;
+     margin-bottom: 2rem; */
+     
      
     /* border: 1px solid greenyellow; */
     /* border-radius: 50%; */
@@ -44,6 +46,7 @@
     margin-top: 10rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     /* width: 90%; */
     gap: 4rem;
     /* height: 100vh; */
@@ -54,18 +57,10 @@
 
 .intro>div{
     /* border:  1px solid palevioletred; */
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .resume{
-    /* font-size: 30px;
-    background-color: blueviolet;
-    color: antiquewhite;
-    border-radius: 5%;
-    padding: 2%;
-    border: none;
-    cursor: pointer; */
-
 
     padding: 15px 25px;
     font-size: 24px;
@@ -114,39 +109,49 @@
         justify-content: flex-start;
         gap: 3rem;
         /* height: 200vh; */
+        /* border: 1px solid red; */
        }
 
-      
+.intro>div{
+    margin: 0;
+}
+
+
+      .intro>div:nth-child(1){
+        /* border: 1px solid blueviolet; */
+        margin-top: 3rem;
+      }
 
        .photo{
-        width: 30%;
+        width: 45%;
+        margin: auto;
         /* border: 1px solid red; */
-        position: relative;
+        /* position: relative; */
         /* top: 40%; */
-        top:3rem;
-        left: 15%;
+        /* top:3rem;
+        left: 15%; */
        }
 
 
        /* .intro{margin-top: 5rem;} */
-
+/* 
        .photo{
         position: relative;
     
         left: 30%;
        }
-
+ */
 
 
        .text{
-        margin-top: 5%;
-        /* font-size: x-large; */
+        margin-top: 0%;
+        font-size: 35px;
         font-family: 'Poppins', sans-serif;
         color: bisque;
        }
 
        .logo{
-        /* font-size: 50px; */
+        font-size: 50px;
         position: relative;
         /* top: 1rem; */
         /* left: 1rem; */
@@ -154,11 +159,16 @@
         /* background-color: rgb(112, 103, 103); */
         color: whitesmoke;
        }
+
+       .resume{
+        padding: 10px 20px;
+        font-size: 24px;
+       }
   }
 
 
 
-  @media (max-width: 520px) {
+  @media (max-width: 600px) {
 
     .home{
         margin-top: -5rem;
@@ -166,7 +176,7 @@
         /* margin-right: 5rem; */
     }
        .intro{
-        margin-top: 5rem;
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -174,11 +184,29 @@
         /* height: 200vh; */
        }
 
+
+       .intro>div:nth-child(1){
+        /* border: 1px solid yellow; */
+        margin-top: 6rem;
+      }
+
+       .text{
+        margin-top: 0;
+        font-size: 30px;
+
+       }
+
+
+       .resume{
+        padding: 7px 15px;
+        font-size: 18px;
+       }
+
     }
 
-  @media (min-width: 921px) {
+  /* @media (min-width: 921px) {
     .intro{
         height: 100vh;
         margin-top: 3rem;
     }
-  }
+  } */

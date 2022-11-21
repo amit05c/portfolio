@@ -1,7 +1,7 @@
 
 .contact{
     /* width: 100%; */
-    height: 60vh;
+    /* height: 60vh; */
     text-align: center;
     /* border: 1px solid white; */
     color: whitesmoke;
@@ -15,33 +15,34 @@
 .contact>h1{
     font-size: 50px;
     color: aqua;
+    text-decoration: underline;
 
 }   
 
 
 
 .contact_list{
+    /* border: 1px solid red; */
     display: flex;
     margin-top: 5%;
     justify-content: center;
+    align-items: center;
     gap: 5%;
     box-sizing: border-box;
 }
 
 .contact_list>div{
-    font-size: 200%;
+    /* font-size: 200%; */
     cursor: pointer;
     
     
     
 }
 
-
-
-
 .logo{
+    /* border: 1px solid blueviolet; */
     color: antiquewhite;
-    font-size: 3rem;
+    font-size: 3.5rem;
     
 }
 
@@ -57,25 +58,30 @@
 }
 
 
-@media (max-width:821px) {
+@media (max-width:920px) {
 
     .contact{
         width: 100%;
     }
 
+    .contact>h1{
+        font-size: 40px;
+    
+    } 
+
     .logo{
         color: antiquewhite;
-        font-size: 4rem;
+        font-size: 2.5rem;
         
     }
 
     
     .contact_list{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(5,1fr);
         /* margin-top: 10%; */
         
-        /* gap: 2%; */
+        gap: 1rem;
         box-sizing: border-box;
     }
 
@@ -91,17 +97,23 @@
 
 
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
 
     .contact_list{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         /* margin-top: 10%; */
         
         gap: 1rem;
         box-sizing: border-box;
         /* border: 1px solid red; */
     }
+
+    .contact>h1{
+        font-size: 30px;
+        color: aqua;
+    
+    } 
 
 
     .contact_list>div{
@@ -115,7 +127,7 @@
     }
 
     .logo{
-        font-size: 2.5rem;
+        font-size: 2rem;
         
     }
 

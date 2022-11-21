@@ -22,13 +22,12 @@
 .about>div>h1{
     font-size: 50px;
     color: aqua;
-
 }
 
 .text{
     margin-top: 5%;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 25px;
     
     color: bisque;
 }
@@ -41,15 +40,44 @@
 @media (max-width: 921px) {
     .about{
         /* border: 1px solid red; */
+        width: 80%;
         height: 60vh;
+        margin: auto;
+        margin-top: 2rem;
+        
+    }
+
+   
+    .about>div>h1{
+        font-size: 40px;
+        text-decoration: underline;
+        /* color: aqua; */
+    
+    }
+
+    .text{
+    margin-top: 2%;
+    line-height: 30px;
+    font-size: 27px;
+    line-break: auto;
+    
+    color: bisque;
+}
+  }
+
+  @media (max-width: 600px){
+
+    .about{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+        margin-top: 2rem;
         
     }
 
     .text{
-    margin-top: 5%;
-    line-height: 30px;
-    font-size: 20px;
-    
-    color: bisque;
-}
+        font-size: 22px;
+        /* line-break: auto; */
+    }
   }

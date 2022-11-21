@@ -5,6 +5,7 @@ import image2 from "../Images/mythressa.png"
 // import image3 from "../Images/apple.png"
 import image4 from "../Images/uboric.png"
 import image5 from "../Images/ckockify.png"
+import image6 from "../Images/myntra.png"
 
 
 import { AiFillGithub } from 'react-icons/ai';
@@ -40,15 +41,50 @@ const Projects = () => {
       className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
 
+      <div data-aos={"flip-up"}>
+          <img src={image6} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Myntra Clone</h2>
+          <p>{`1. `}This is a full-stack web app</p>
+          <p >{`2. `}This is a solo project</p>
+          <p >{`2. `}Can be used for Multi users</p>
+          <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
+          </div>
+          
+          
+
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div
+            >
+            <DiMongodb/>
+            <FaNodeJs/>
+            <SiExpress/>
+            <RiReactjsLine/>
+            <SiChakraui/>
+            </div>
+            
+          </div>
+            
+          <div>
+          <a href="https://github.com/amit05c/myntra_clone" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://myntra-blue.vercel.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+           
+            
+          </div>
+        </div>
+
+
 
       <div data-aos={"flip-up"}>
-          <img src={image5} alt="max_fashion" width={"100%"}  />
-          <div style={{textAlignment:"center"}}>
-          <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Clockify Clone</h2>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Clockify is time time tracker website.</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>This is a collaborative Fullstack project of five members.</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Login, signup, delete, filter functionlities are created</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>In Dashboard page data are show as chart format</p>
+          <img src={image5} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Clockify Clone</h2>
+          <p>{`1. `}Clockify is time time tracker website.</p>
+          <p >{`2. `}This is a collaborative Fullstack project of five members.</p>
+          <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
+          <p>{`4. `}In Dashboard page data are show as chart format</p>
           </div>
           
           
@@ -77,12 +113,12 @@ const Projects = () => {
 
 
       <div data-aos={"flip-up"}>
-          <img src={image4} alt="max_fashion" width={"100%"}  />
-          <div style={{textAlignment:"center"}}>
-          <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Uboric Clone</h2>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>This is a collaborative project of four members</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Login, signup, filter,sort,cart funtionality are active</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Filter and sort functionality are made by me.</p>
+          <img src={image4} alt="max_fashion" className={styles.heroimg}  />
+          <div className={styles.project_info}>
+          <h2>Uboric Clone</h2>
+          <p >{`1. `}This is a collaborative project of four members</p>
+          <p>{`2. `}Login, signup, filter,sort,cart funtionality are active</p>
+          <p>{`3. `}Filter and sort functionality are made by me.</p>
           </div>
           
           
@@ -109,12 +145,12 @@ const Projects = () => {
 
 
         <div data-aos={"flip-up"}>
-          <img src={image1} alt="max_fashion" width={"100%"}  />
-          <div style={{textAlign:"center"}}>
-          <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Max Fashion clone</h2>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Max fashion is an online e-comerce website.</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Total time takes: 5days</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Login, signup, filter,sort,cart funtionality are active</p>
+          <img src={image1} alt="max_fashion" className={styles.heroimg}  />
+          <div className={styles.project_info}>
+          <h2>Max Fashion clone</h2>
+          <p>{`1. `}Max fashion is an online e-comerce website.</p>
+          <p>{`2. `}Total time takes: 5days</p>
+          <p>{`3. `}Login, signup, filter,sort,cart funtionality are active</p>
           </div>
           
           
@@ -138,10 +174,13 @@ const Projects = () => {
         </div>
 
         <div data-aos={"flip-up"} >
-        <img src={image2} alt="mythressa_clone" width={"100%"} />
-          <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Mythresa clone</h2>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>It is cloned in construct week project. This is a collaborative project of 5 members.</p>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>Login,signup,Filter,sort,cart,and payment and opt authentication funtionalities are built.</p>
+        <img src={image2} alt="mythressa_clone" className={styles.heroimg} />
+        <div className={styles.project_info}>
+        <h2>Mythresa clone</h2>
+          <p>{`1. `}It is cloned in construct week project. This is a collaborative project of 5 members.</p>
+          <p>{`2. `}Login,signup,Filter,sort,cart,and payment and opt authentication funtionalities are built.</p>
+        </div>
+          
           
           <div className={styles.techstack}>
             <h1>Techstack :</h1>

@@ -11,8 +11,9 @@ const GithubCalendar = () => {
         sm: {with:"90%"},
     })
   return (
-   <Box color="white" margin={"auto"} width={['80%', "80%", "100%"]} p={['0rem',"1rem", "2rem"]} data-aos="fade-up"  height={["40vh","50vh","80vh"]}  >
-      <Text  color='aqua' fontSize={["2rem", "2rem", '2.5rem']} m="auto">Github Calendar</Text>
+   <Box color="white" margin={"auto"} width={['80%', "80%", "100%"]} p={['0rem',"1rem", "2rem"]} data-aos="fade-up"  mb={['5rem','7rem','10rem']}  >
+    
+      <Text  color='aqua' fontSize={["2rem", "2rem", '2.5rem']} m="auto" textDecoration={"underline"}>Github Calendar</Text>
 
     <GitHubCalendar username="amit05c"  showWeekdayLabels="true" style={{margin:"auto"}} />
 

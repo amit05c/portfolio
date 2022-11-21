@@ -2,7 +2,7 @@
     width: 90%;
     /* height: 80vh; */
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 8rem;
     /* margin-bottom: 2rem; */
     padding:1rem;
     box-sizing: border-box;
@@ -11,9 +11,9 @@
 }
 
 .logo{
-    border: 3px solid aqua;
-    display: flex;
-    justify-content: center;
+    /* border: 3px solid aqua; */
+    /* display: flex; */
+    /* justify-content: center; */
     border-radius: 3%;
     box-shadow: inset;
 }
@@ -23,6 +23,7 @@
     margin-bottom: 10vh;
     color: aqua;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 
@@ -35,7 +36,7 @@
 
 .skills_lists{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     justify-items: center;
     /* border: 1px solid red; */
     gap: 1rem;
@@ -45,36 +46,16 @@
 .skills_lists>div{
     /* height: 100px; */
     /* border: 1px solid seashell; */
-    width: 50%;
-    padding: 1rem;
+    /* width: 50%; */
+    padding: 2rem;
+    /* background-color: aqua;
+    color: black; */
 
 }
 
-@media (max-width: 520px) {
-
-    .skills{
-        margin-top: 0;
-        /* border: 1px solid red; */
-        width: 100%;
-    }
-
-    
-
-    .skills_lists{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    
-    }
-
-    .skills_lists>div{
-        height: 110px;
-        border: 1px solid seashell;
-        width: 500px;
-        /* padding: 1rem; */
-        gap: 1rem;
-    
-    }
-
+.photo{
+    font-size: 80px;
+    margin: auto;
 }
 
 
@@ -87,17 +68,22 @@
     .skills_lists{
         display: grid;
         gap:3rem;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     
     }
 
-    .skills_lists>div{
+    /* .skills_lists>div{ */
         /* height: 100px; */
         /* border: 1px solid seashell; */
-        width: 100%;
+        /* width: 100%; */
         /* padding: 1rem; */
         /* gap: 2rem; */
     
+    /* } */
+
+    .photo{
+        font-size: 80px;
+        margin: auto;
     }
 
 
@@ -107,14 +93,50 @@
 
 
 
+@media (max-width: 600px) {
 
-
-
-/* 
-@media (min-width: 921px) {
     .skills{
-        margin-top: 15rem;
-        height: 100vh;
+        margin-top: 5rem;
+        /* margin: auto; */
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    
+
+    .skills_lists{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+        
     
     }
-  } */
+
+    .skills>h1{
+        /* margin-top: 1rem; */
+        margin-bottom: 1rem;
+        color: aqua;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+
+    .skills_lists>div{
+        /* background-color: red; */
+        /* height: 110px;
+        border: 1px solid seashell;
+        width: 500px; */
+        /* padding: 1rem;
+        gap: 1rem; */
+        padding: 0.5rem;
+    
+    }
+
+    .photo{
+        font-size: 60px;
+        margin: auto;
+    }
+
+}

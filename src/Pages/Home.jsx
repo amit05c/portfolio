@@ -25,10 +25,13 @@ const Home = () => {
 
           </div>
           {/* style={{border: "1px solid green"}} */}
-        <div  >
-        <h1 className={styles.text}>Hi, 👋 </h1>
+        <div >
+          <div>
+          <h1 className={styles.text}>Hi, 👋 </h1>
         <h1 className={styles.text}>I am <span className={styles.name}>Amit</span></h1>
          <h2 className={styles.text}>Fullstack Developer</h2>
+          </div>
+        
 
          <div style={{display:"flex", justifyContent:"center", marginTop:"1rem"}}>
         <a href={resume} download><button className={styles.resume}> Resume</button></a>

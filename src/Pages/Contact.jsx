@@ -23,20 +23,20 @@ const Contact = () => {
       <div className={styles.contact_list}>
         <div data-aos={width > 920 ? "fade-left" : ""}>
           <a
-            className={styles.logo}
+            
             href="https://github.com/amit05c"
             target={"_balnk"}
           >
-            <AiFillGithub fontSize={"larger"} />
+            <AiFillGithub className={styles.logo} />
           </a>
         </div>
         <div data-aos={width > 920 ? "fade-left" : ""}>
           <a
-            className={styles.logo}
+            
             href="mailto:amitghosh0595c@gmail.com"
             target={"_balnk"}
           >
-            <AiOutlineMail fontSize={"larger"} />
+            <AiOutlineMail className={styles.logo} />
           </a>
         </div>
         <div
@@ -44,24 +44,24 @@ const Contact = () => {
           // className={styles.logo}
           onClick={() => alert(`Phone no is 7551021361`)}
         >
-          <BsTelephoneInbound className={styles.logo} fontSize={"larger"} />
+          <BsTelephoneInbound className={styles.logo}  />
         </div>
         <div data-aos={width > 920 ? "fade-right" : ""}>
           <a
-            className={styles.logo}
+            
             href="https://www.linkedin.com/in/amit-ghosh-0b6807228/"
             target={"_blank"}
           >
-            <BsLinkedin fontSize={"larger"} />
+            <BsLinkedin className={styles.logo} />
           </a>
         </div>
         <div data-aos={width > 920 ? "fade-right" : ""}>
           <a
-            className={styles.logo}
+            
             href="https://twitter.com/Amit05C"
             target={"_blank"}
           >
-            <FiTwitter fontSize={"larger"} />
+            <FiTwitter className={styles.logo} />
           </a>
         </div>
       </div>
