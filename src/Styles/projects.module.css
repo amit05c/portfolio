@@ -166,14 +166,14 @@
     .projects{
         width: 100%;
         margin: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         box-sizing: border-box;
     }
     
     .project_list>div{
         width: 90%;
         margin: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 1%;
         padding: 3rem;
         
