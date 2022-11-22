@@ -18,7 +18,7 @@ const About = () => {
      
       <div>
       <h1 data-aos={width>920 ? "fade-up" : ""}>About</h1>
-      <div style={{width:"40%"}}>
+      <div>
 
       <p data-aos={width>920 ? "fade-up" : ""} className={styles.text}>
       Amit Ghosh, An Aspiring Frontend Developer. Looking forward to applying and enhancing my skills and knowledge as a developer.

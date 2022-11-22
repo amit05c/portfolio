@@ -6,7 +6,7 @@
     /* height: 100vh; */
     /* border: 1px solid green; */
     /* background-color: antiquewhite; */
-    margin-top: 10rem;
+    margin-top: 5rem;
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 5rem;
@@ -93,6 +93,7 @@
     display: flex;
     margin-top: 2rem;
     justify-content: center;
+    /* align-items: center; */
     color: #22283e;
     border: 3px solid aqua;
     width: 100%;
@@ -160,20 +161,21 @@
 
 }
 
-@media  (max-width: 520px) {
+@media  (max-width: 600px) {
   
     .projects{
         width: 100%;
         margin: auto;
-        /* border: 1px solid red; */
+        border: 1px solid red;
         box-sizing: border-box;
     }
+    
     .project_list>div{
         width: 90%;
-        /* border: 1px solid red; */
+        margin: auto;
+        border: 1px solid red;
         border-radius: 1%;
         padding: 3rem;
-        margin: auto;
         
        }
    

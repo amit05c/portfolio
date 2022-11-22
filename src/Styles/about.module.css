@@ -26,6 +26,8 @@
 
 .text{
     margin-top: 5%;
+    width: 40%;
+    margin: auto;
     line-height: 30px;
     font-size: 25px;
     
@@ -41,9 +43,10 @@
     .about{
         /* border: 1px solid red; */
         width: 80%;
-        height: 60vh;
+        height: 70vh;
         margin: auto;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
+        margin-bottom: 2rem;
         
     }
 
@@ -56,9 +59,12 @@
     }
 
     .text{
+        border: 1px solid red;
+        width: 70%;
+        margin: auto;
     margin-top: 2%;
     line-height: 30px;
-    font-size: 27px;
+    font-size: 18px;
     line-break: auto;
     
     color: bisque;
@@ -68,16 +74,21 @@
   @media (max-width: 600px){
 
     .about{
-        /* border: 1px solid red; */
+        border: 1px solid red;
         width: 100%;
         height: 60vh;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         
     }
 
+    .about>p{
+        text-align: justify;
+    }
+
     .text{
-        font-size: 22px;
+        font-size: 15px;
         /* line-break: auto; */
     }
   }
