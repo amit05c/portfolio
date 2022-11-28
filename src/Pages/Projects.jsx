@@ -31,17 +31,17 @@ const Projects = () => {
   // console.log(windowDimensions)
   useEffect(()=>{
     
-    Aos.init({duration:1000})
+    Aos.init({duration:500})
     
   },[])
 
   return (
     <div  className={styles.projects} id={"projects"}>
-      <h1 data-aos={ "fade-up"} 
+      <h1 
       className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
 
-      <div data-aos={"flip-up"}>
+      <div data-aos={"zoom-in-up"}>
           <img src={image6} alt="max_fashion" className={styles.heroimg} />
           <div className={styles.project_info}>
           <h2 >Myntra Clone</h2>
@@ -77,7 +77,7 @@ const Projects = () => {
 
 
 
-      <div data-aos={"flip-up"}>
+      <div data-aos={"zoom-in-up"}>
           <img src={image5} alt="max_fashion" className={styles.heroimg} />
           <div className={styles.project_info}>
           <h2 >Clockify Clone</h2>
@@ -112,7 +112,7 @@ const Projects = () => {
         </div>
 
 
-      <div data-aos={"flip-up"}>
+      <div data-aos={"zoom-in-up"}>
           <img src={image4} alt="max_fashion" className={styles.heroimg}  />
           <div className={styles.project_info}>
           <h2>Uboric Clone</h2>
@@ -144,7 +144,7 @@ const Projects = () => {
         </div>
 
 
-        <div data-aos={"flip-up"}>
+        <div data-aos={"zoom-in-up"}>
           <img src={image1} alt="max_fashion" className={styles.heroimg}  />
           <div className={styles.project_info}>
           <h2>Max Fashion clone</h2>
@@ -173,7 +173,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div data-aos={"flip-up"} >
+        <div data-aos={"zoom-in-up"} >
         <img src={image2} alt="mythressa_clone" className={styles.heroimg} />
         <div className={styles.project_info}>
         <h2>Mythresa clone</h2>

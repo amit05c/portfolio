@@ -28,21 +28,21 @@ const Skills = () => {
   const width = windowDimensions.width;
 
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 500 });
   }, []);
 
   return (
     <div className={`${styles.skills} ${styles.text}`} id={"skills"}>
-      <h1 data-aos={width > 920 ? "fade-up" : ""}>Skills</h1>
+      <h1>Skills</h1>
       <div className={styles.skills_lists}>
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
           {/* <img src={reactLogo} alt="react_logo" width={"70%"}  /> */}
           < FaNodeJs className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Node Js</Text>
 
         </div>
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
          
           <SiExpress  className={styles.photo}/>
           <Text fontSize={['lg','lg','lg']}>Express Js</Text>
@@ -50,7 +50,7 @@ const Skills = () => {
 
 
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
          
           <DiMongodb className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Mongo</Text>
@@ -58,26 +58,26 @@ const Skills = () => {
 
 
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
          
           <RiReactjsLine  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>React</Text>
         </div>
 
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
           <SiRedux  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Redux</Text>
         </div>
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-left" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
           
            <TbBrandJavascript  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Javascript</Text>
 
         </div>
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
           {/* <img
             src={chakraUi}
             alt={"chakra_logo"}
@@ -87,7 +87,7 @@ const Skills = () => {
            <FaHtml5  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>HTML</Text>
         </div>
-        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
           {/* <img
             src={bootstrap}
             alt={"bootstrap_logo"}
@@ -99,12 +99,12 @@ const Skills = () => {
 
         </div>
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
          <SiChakraui  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Chakra UI</Text>
         </div>
 
-        <div className={styles.logo} data-aos={width > 920 ? "fade-right" : ""}>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
          <TbBrandTailwind  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Tailwind CSS</Text>
         </div>
