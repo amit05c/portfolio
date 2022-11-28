@@ -17,11 +17,11 @@ const Contact = () => {
     Aos.init({ duration: 1000 });
   }, []);
 
-  return (
+  return (  
     <div className={styles.contact} id={"contact"}>
-      <h1 data-aos={width > 920 ? "fade-up" : ""}>Contacts</h1>
+      <h1>Contacts</h1>
       <div className={styles.contact_list}>
-        <div data-aos={width > 920 ? "fade-left" : ""}>
+        <div data-aos={"zoom-in-up"}>
           <a
             
             href="https://github.com/amit05c"
@@ -30,7 +30,8 @@ const Contact = () => {
             <AiFillGithub className={styles.logo} />
           </a>
         </div>
-        <div data-aos={width > 920 ? "fade-left" : ""}>
+
+        <div data-aos={"zoom-in-up"}>
           <a
             
             href="mailto:amitghosh0595c@gmail.com"
@@ -39,14 +40,16 @@ const Contact = () => {
             <AiOutlineMail className={styles.logo} />
           </a>
         </div>
+
         <div
-          data-aos={width > 920 ? "fade-left" : ""}
+          data-aos={"zoom-in-up"}
           // className={styles.logo}
           onClick={() => alert(`Phone no is 7551021361`)}
         >
           <BsTelephoneInbound className={styles.logo}  />
         </div>
-        <div data-aos={width > 920 ? "fade-right" : ""}>
+
+        <div data-aos={"zoom-in-up"}>
           <a
             
             href="https://www.linkedin.com/in/amit-ghosh-0b6807228/"
@@ -55,7 +58,8 @@ const Contact = () => {
             <BsLinkedin className={styles.logo} />
           </a>
         </div>
-        <div data-aos={width > 920 ? "fade-right" : ""}>
+
+        <div data-aos={"zoom-in-up"}>
           <a
             
             href="https://twitter.com/Amit05C"
@@ -64,6 +68,7 @@ const Contact = () => {
             <FiTwitter className={styles.logo} />
           </a>
         </div>
+        
       </div>
       <div className={styles.copy}>
         <h3>© 2022 copyright all right reserved</h3>
