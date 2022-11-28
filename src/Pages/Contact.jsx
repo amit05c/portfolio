@@ -21,7 +21,7 @@ const Contact = () => {
     <div className={styles.contact} id={"contact"}>
       <h1>Contacts</h1>
       <div className={styles.contact_list}>
-        <div>
+        <div >
           <a
             
             href="https://github.com/amit05c"
@@ -31,7 +31,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div>
+        <div >
           <a
             
             href="mailto:amitghosh0595c@gmail.com"
@@ -49,7 +49,7 @@ const Contact = () => {
           <BsTelephoneInbound className={styles.logo}  />
         </div>
 
-        <div>
+        <div >
           <a
             
             href="https://www.linkedin.com/in/amit-ghosh-0b6807228/"
@@ -59,7 +59,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div>
+        <div >
           <a
             
             href="https://twitter.com/Amit05C"
