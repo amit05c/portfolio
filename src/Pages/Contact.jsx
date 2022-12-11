@@ -42,8 +42,8 @@ const Contact = () => {
         </div>
 
         <div
-          data-aos={"zoom-in-up"}
-          // className={styles.logo}
+          // data-aos={"zoom-in-up"}
+          className={styles.logo}
           onClick={() => alert(`Phone no is 7551021361`)}
         >
           <BsTelephoneInbound className={styles.logo}  />

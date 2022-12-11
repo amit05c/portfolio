@@ -6,6 +6,7 @@ import image2 from "../Images/mythressa.png"
 import image4 from "../Images/uboric.png"
 import image5 from "../Images/ckockify.png"
 import image6 from "../Images/myntra.png"
+import image7 from "../Images/connect.png"
 
 
 import { AiFillGithub } from 'react-icons/ai';
@@ -42,6 +43,40 @@ const Projects = () => {
       <div className={styles.project_list}>
 
       <div data-aos={"zoom-in-up"}>
+          <img src={image7} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Full stack real time chat application</h2>
+          <p >{`2. `}This is a solo project which takes almost 3 weeks to create</p>
+          <p >{`2. `}Can be used for Multi users by using socket io</p>
+          <p>{`3. `}Login, signup, one on one chat and group chat and search functionlities are created</p>
+          <p>{`3. `}NodeJS,Express js, MongoDB, Socket io, React, context-api, Chakra ui are used used to build this project</p>
+          </div>
+          
+          
+
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div
+            >
+            <DiMongodb/>
+            <FaNodeJs/>
+            <SiExpress/>
+            <RiReactjsLine/>
+            <SiChakraui/>
+            </div>
+            
+          </div>
+            
+          <div>
+          <a href="https://github.com/amit05c/connect_app" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://dashing-mermaid-36cf23.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+           
+            
+          </div>
+        </div>
+
+      <div data-aos={"zoom-in-up"}>
           <img src={image6} alt="max_fashion" className={styles.heroimg} />
           <div className={styles.project_info}>
           <h2 >Myntra Clone</h2>
@@ -49,6 +84,7 @@ const Projects = () => {
           <p >{`2. `}This is a solo project</p>
           <p >{`2. `}Can be used for Multi users</p>
           <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
+          <p>{`3. `}NodeJS,Express js, MongoDB,React,Redux,Chakra ui are used used to build this project</p>
           </div>
           
           
@@ -74,43 +110,6 @@ const Projects = () => {
             
           </div>
         </div>
-
-
-
-      <div data-aos={"zoom-in-up"}>
-          <img src={image5} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-          <h2 >Clockify Clone</h2>
-          <p>{`1. `}Clockify is time time tracker website.</p>
-          <p >{`2. `}This is a collaborative Fullstack project of five members.</p>
-          <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
-          <p>{`4. `}In Dashboard page data are show as chart format</p>
-          </div>
-          
-          
-
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div
-            >
-            <FaNodeJs/>
-            <SiExpress/>
-            <DiMongodb/>
-            <RiReactjsLine/>
-            <SiChakraui/>
-            </div>
-            
-          </div>
-            
-          <div>
-          <a href="https://github.com/Devashishsaurabh/fixed-thread-889" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
-          <a href="https://clockify-clone-masai.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
-           
-            
-          </div>
-        </div>
-
 
       <div data-aos={"zoom-in-up"}>
           <img src={image4} alt="max_fashion" className={styles.heroimg}  />
@@ -145,12 +144,50 @@ const Projects = () => {
 
 
         <div data-aos={"zoom-in-up"}>
+          <img src={image5} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Clockify Clone</h2>
+          <p>{`1. `}Clockify is time time tracker website.</p>
+          <p >{`2. `}This is a collaborative Fullstack project of five members.</p>
+          <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
+          <p>{`4. `}In Dashboard page data are show as chart format</p>
+          <p>{`3. `}NodeJS,Express js, MongoDB, React, Chakra ui are used used to build this project</p>
+          </div>
+          
+          
+
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div
+            >
+            <FaNodeJs/>
+            <SiExpress/>
+            <DiMongodb/>
+            <RiReactjsLine/>
+            <SiChakraui/>
+            </div>
+            
+          </div>
+            
+          <div>
+          <a href="https://github.com/Devashishsaurabh/fixed-thread-889" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://clockify-clone-masai.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+           
+            
+          </div>
+        </div>
+
+
+
+        <div data-aos={"zoom-in-up"}>
           <img src={image1} alt="max_fashion" className={styles.heroimg}  />
           <div className={styles.project_info}>
           <h2>Max Fashion clone</h2>
           <p>{`1. `}Max fashion is an online e-comerce website.</p>
           <p>{`2. `}Total time takes: 5days</p>
           <p>{`3. `}Login, signup, filter,sort,cart funtionality are active</p>
+          <p>{`3. `}React, Chakra ui are used used to build this project</p>
           </div>
           
           
@@ -179,6 +216,7 @@ const Projects = () => {
         <h2>Mythresa clone</h2>
           <p>{`1. `}It is cloned in construct week project. This is a collaborative project of 5 members.</p>
           <p>{`2. `}Login,signup,Filter,sort,cart,and payment and opt authentication funtionalities are built.</p>
+          <p>{`3. `}Html, CSS, Javascript, Bootstrap are used used to build this project</p>
         </div>
           
           
