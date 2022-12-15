@@ -42,39 +42,7 @@ const Projects = () => {
       className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
 
-      <div data-aos={"zoom-in-up"}>
-          <img src={image7} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-          <h2 >Full stack real time chat application</h2>
-          <p >{`2. `}This is a solo project which takes almost 3 weeks to create</p>
-          <p >{`2. `}Can be used for Multi users by using socket io</p>
-          <p>{`3. `}Login, signup, one on one chat and group chat and search functionlities are created</p>
-          <p>{`3. `}NodeJS,Express js, MongoDB, Socket io, React, context-api, Chakra ui are used used to build this project</p>
-          </div>
-          
-          
 
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div
-            >
-            <DiMongodb/>
-            <FaNodeJs/>
-            <SiExpress/>
-            <RiReactjsLine/>
-            <SiChakraui/>
-            </div>
-            
-          </div>
-            
-          <div>
-          <a href="https://github.com/amit05c/connect_app" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
-          <a href="https://dashing-mermaid-36cf23.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
-           
-            
-          </div>
-        </div>
 
       <div data-aos={"zoom-in-up"}>
           <img src={image6} alt="max_fashion" className={styles.heroimg} />
@@ -137,6 +105,41 @@ const Projects = () => {
           <div>
           <a href="https://github.com/amit05c/exclusive-oatmeal-9601" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
           <a href="https://exclusive-oatmeal-9601.vercel.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+           
+            
+          </div>
+        </div>
+
+
+        <div data-aos={"zoom-in-up"}>
+          <img src={image7} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Full stack real time chat application</h2>
+          <p >{`2. `}This is a solo project which takes almost 3 weeks to create</p>
+          <p >{`2. `}Can be used for Multi users by using socket io</p>
+          <p>{`3. `}Login, signup, one on one chat and group chat and search functionlities are created</p>
+          <p>{`3. `}NodeJS,Express js, MongoDB, Socket io, React, context-api, Chakra ui are used used to build this project</p>
+          </div>
+          
+          
+
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div
+            >
+            <DiMongodb/>
+            <FaNodeJs/>
+            <SiExpress/>
+            <RiReactjsLine/>
+            <SiChakraui/>
+            </div>
+            
+          </div>
+            
+          <div>
+          <a href="https://github.com/amit05c/connect_app" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://dashing-mermaid-36cf23.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
            
             
           </div>
