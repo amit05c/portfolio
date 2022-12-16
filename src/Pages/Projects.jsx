@@ -42,7 +42,7 @@ const Projects = () => {
       className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
 
-
+{/* all projects */}
 
       <div data-aos={"zoom-in-up"}>
           <img src={image6} alt="max_fashion" className={styles.heroimg} />
