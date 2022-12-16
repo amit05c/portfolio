@@ -50,9 +50,9 @@ const Projects = () => {
           <h2 >Myntra Clone</h2>
           <p>{`1. `}This is a full-stack web app</p>
           <p >{`2. `}This is a solo project</p>
-          <p >{`2. `}Can be used for Multi users</p>
-          <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
-          <p>{`3. `}NodeJS,Express js, MongoDB,React,Redux,Chakra ui are used used to build this project</p>
+          <p >{`3. `}Can be used for Multi users</p>
+          <p>{`4. `}Login, signup, delete, filter functionlities are created</p>
+          <p>{`5. `}NodeJS,Express js, MongoDB,React,Redux,Chakra ui are used used to build this project</p>
           </div>
           
           
@@ -115,10 +115,10 @@ const Projects = () => {
           <img src={image7} alt="max_fashion" className={styles.heroimg} />
           <div className={styles.project_info}>
           <h2 >Full stack real time chat application</h2>
-          <p >{`2. `}This is a solo project which takes almost 3 weeks to create</p>
+          <p >{`1. `}This is a solo project which takes almost 3 weeks to create</p>
           <p >{`2. `}Can be used for Multi users by using socket io</p>
           <p>{`3. `}Login, signup, one on one chat and group chat and search functionlities are created</p>
-          <p>{`3. `}NodeJS,Express js, MongoDB, Socket io, React, context-api, Chakra ui are used used to build this project</p>
+          <p>{`4. `}NodeJS,Express js, MongoDB, Socket io, React, context-api, Chakra ui are used used to build this project</p>
           </div>
           
           
@@ -154,7 +154,7 @@ const Projects = () => {
           <p >{`2. `}This is a collaborative Fullstack project of five members.</p>
           <p>{`3. `}Login, signup, delete, filter functionlities are created</p>
           <p>{`4. `}In Dashboard page data are show as chart format</p>
-          <p>{`3. `}NodeJS,Express js, MongoDB, React, Chakra ui are used used to build this project</p>
+          <p>{`5. `}NodeJS,Express js, MongoDB, React, Chakra ui are used used to build this project</p>
           </div>
           
           
@@ -190,7 +190,7 @@ const Projects = () => {
           <p>{`1. `}Max fashion is an online e-comerce website.</p>
           <p>{`2. `}Total time takes: 5days</p>
           <p>{`3. `}Login, signup, filter,sort,cart funtionality are active</p>
-          <p>{`3. `}React, Chakra ui are used used to build this project</p>
+          <p>{`4. `}React, Chakra ui are used used to build this project</p>
           </div>
           
           
