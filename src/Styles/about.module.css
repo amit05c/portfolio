@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 .about{
     /* width: 100px; */
     height: 80vh;
@@ -29,12 +30,15 @@
     width: 40%;
     margin: auto;
     line-height: 30px;
-    font-size: 25px;
+    font-size: 20px;
+    
+    font-family: 'Poppins', sans-serif;
     
     color: bisque;
 }
 
 .email{
+    font-family: 'Poppins', sans-serif;
     color: aqua;
 }
 
@@ -64,7 +68,7 @@
         margin: auto;
     margin-top: 2%;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 20px;
     line-break: auto;
     
     color: bisque;
@@ -88,7 +92,8 @@
     }
 
     .text{
-        font-size: 15px;
-        /* line-break: auto; */
+        font-size: 18px;
+        /* line-height: 30px; */
+        line-break: auto;
     }
   }
