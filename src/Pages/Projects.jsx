@@ -103,8 +103,8 @@ const Projects = () => {
           </div>
             
           <div>
-          <a href="https://github.com/amit05c/exclusive-oatmeal-9601" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
-          <a href="https://exclusive-oatmeal-9601.vercel.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+          <a href="https://github.com/amit05c/Uboric_Clone" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://uboric-deploy.vercel.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
            
             
           </div>
