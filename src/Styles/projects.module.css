@@ -39,6 +39,7 @@
     margin: auto;
     background-color: whitesmoke;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 .heroimg{

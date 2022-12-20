@@ -116,6 +116,45 @@ const Projects = () => {
 
 
         <div data-aos={"zoom-in-up"}>
+          <img src={image5} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+          <h2 >Clockify Clone</h2>
+          <ul style={{listStyleType:"square"}}>
+          <li>Clockify is time time tracker website.</li>
+          <li >This is a collaborative Fullstack project of five members.</li>
+          <li>Login, signup, delete, filter functionlities are created</li>
+          <li>In Dashboard page data are show as chart format</li>
+          <li>NodeJS,Express js, MongoDB, React, Chakra ui are used used to build this project</li>
+          </ul>
+          </div>
+          
+          
+
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div
+            >
+            <FaNodeJs/>
+            <SiExpress/>
+            <DiMongodb/>
+            <RiReactjsLine/>
+            <SiChakraui/>
+            </div>
+            
+          </div>
+            
+          <div>
+          <a href="https://github.com/amit05c/clockify_clone" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
+          <a href="https://bespoke-rugelach-a7fa44.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
+           
+            
+          </div>
+        </div>
+
+
+
+        <div data-aos={"zoom-in-up"}>
           <img src={image7} alt="max_fashion" className={styles.heroimg} />
           <div className={styles.project_info}>
           <h2 >Full stack real time chat application</h2>
@@ -152,43 +191,7 @@ const Projects = () => {
         </div>
 
 
-        <div data-aos={"zoom-in-up"}>
-          <img src={image5} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-          <h2 >Clockify Clone</h2>
-          <ul style={{listStyleType:"square"}}>
-          <li>Clockify is time time tracker website.</li>
-          <li >This is a collaborative Fullstack project of five members.</li>
-          <li>Login, signup, delete, filter functionlities are created</li>
-          <li>In Dashboard page data are show as chart format</li>
-          <li>NodeJS,Express js, MongoDB, React, Chakra ui are used used to build this project</li>
-          </ul>
-          </div>
-          
-          
-
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div
-            >
-            <FaNodeJs/>
-            <SiExpress/>
-            <DiMongodb/>
-            <RiReactjsLine/>
-            <SiChakraui/>
-            </div>
-            
-          </div>
-            
-          <div>
-          <a href="https://github.com/Devashishsaurabh/fixed-thread-889" target={"_blank"}><button ><AiFillGithub fontSize={"large"} /></button></a>
-          <a href="https://clockify-clone-masai.netlify.app/" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
-           
-            
-          </div>
-        </div>
-
+        
 
 
         <div data-aos={"zoom-in-up"}>

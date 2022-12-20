@@ -17,7 +17,7 @@ const About = () => {
     <div   className={styles.about} id="about">
      
       <div>
-      <h1>About</h1>
+      <h1 style={{textDecoration:"underline"}}>About</h1>
       <div data-aos={"zoom-in-up"}>
 
       <p  className={styles.text}>
