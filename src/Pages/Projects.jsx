@@ -9,7 +9,10 @@ import image6 from "../Images/myntra.png";
 import image7 from "../Images/connect.png";
 import image8 from "../Images/zuruni.png";
 import dtime from "../Images/dtime.png"
-
+import chatappImg from "../Images/ChatApp.png"
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiPostgresql } from "react-icons/si";
+import { FaTailwind } from 'react-icons/fa';
 import { AiFillGithub } from "react-icons/ai";
 // import { SiRedux } from 'react-icons/si';
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -44,7 +47,90 @@ const Projects = () => {
         {/* all projects */}
 
         <div data-aos={"zoom-in-up"}>
-          <img src={dtime} alt="max_fashion" className={styles.heroimg} />
+          <img src={image6} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+            <h2>Myntra Clone</h2>
+            <ul style={{ listStyleType: "square" }}>
+              <li>This is a full-stack web app</li>
+              <li>This is a solo project</li>
+              <li>Can be used for Multi users</li>
+              <li>Login, signup, delete, filter functionlities are created</li>
+              <li>
+                NodeJS, Express js, MongoDB, React, Redux, Chakra ui are used
+                used to build this project
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div>
+              <DiMongodb />
+              <FaNodeJs />
+              <SiExpress />
+              <RiReactjsLine />
+              <SiChakraui />
+            </div>
+          </div>
+
+          <div>
+            <a href="https://github.com/amit05c/myntra_clone" target={"_blank"}>
+              <button>
+                <AiFillGithub fontSize={"large"} />
+              </button>
+            </a>
+            <a href="https://myntra-blue.vercel.app/" target={"_blank"}>
+              <button>
+                <HiOutlineExternalLink fontSize={"large"} />
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos={"zoom-in-up"}>
+          <img src={chatappImg} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+            <h2>Chat App</h2>
+            <ul style={{ listStyleType: "square" }}>
+              <li>This is a chat app</li>
+              <li>This is a solo project</li>
+              <li>Login, signup, Individual chat and group freatures has been implemented</li>
+              <li>Can be used for Multi users</li>
+              <li>
+                NodeJS, Express js, MongoDB, HTML, CSS, and Javascript are used
+                used to build this project
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div>
+              <DiMongodb />
+              <FaNodeJs />
+              <SiExpress />
+              <FaHtml5/>
+              <IoLogoJavascript />
+              <IoLogoCss3 />
+            </div>
+          </div>
+
+          <div>
+            <a href="https://github.com/amit05c/server" target={"_blank"}>
+              <button>
+                <AiFillGithub fontSize={"large"} />
+              </button>
+            </a>
+            <a href="https://server-ry4n.onrender.com" target={"_blank"}>
+              <button>
+                <HiOutlineExternalLink fontSize={"large"} />
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos={"zoom-in-up"}>
+          <img src={dtime} alt="dtime" className={styles.heroimg} />
           <div className={styles.project_info}>
             <h2>Dtechtive</h2>
             <ul style={{ listStyleType: "square" }}>
@@ -61,6 +147,15 @@ const Projects = () => {
               </li>
             </ul>
           </div>
+
+          <div className={styles.techstack}>
+            <h1>Techstack :</h1>
+            <div>
+              <TbBrandNextjs />
+              <SiPostgresql />
+            </div>
+          </div>
+
 
           <div>
 
@@ -114,49 +209,6 @@ const Projects = () => {
             </a>
           </div>
         </div>
-
-        <div data-aos={"zoom-in-up"}>
-          <img src={image6} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Myntra Clone</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>This is a full-stack web app</li>
-              <li>This is a solo project</li>
-              <li>Can be used for Multi users</li>
-              <li>Login, signup, delete, filter functionlities are created</li>
-              <li>
-                NodeJS, Express js, MongoDB, React, Redux, Chakra ui are used
-                used to build this project
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <DiMongodb />
-              <FaNodeJs />
-              <SiExpress />
-              <RiReactjsLine />
-              <SiChakraui />
-            </div>
-          </div>
-
-          <div>
-            <a href="https://github.com/amit05c/myntra_clone" target={"_blank"}>
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a href="https://myntra-blue.vercel.app/" target={"_blank"}>
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div>
-
-
 
       </div>
     </div>

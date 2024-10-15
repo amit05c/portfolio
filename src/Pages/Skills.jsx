@@ -9,7 +9,7 @@ import Redux from "../Images/Redux.png";
 import Dsa from "../Images/dsa_photo.jpeg";
 import { DiMongodb } from 'react-icons/di';
 import { FaHtml5,FaNodeJs } from 'react-icons/fa';
-import { SiChakraui,SiRedux,SiExpress } from 'react-icons/si';
+import { SiChakraui,SiRedux,SiExpress,SiSocketdotio } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
 // import { IoLogoJavascript } from 'react-icons/io';
 import { TbBrandJavascript,TbBrandTailwind } from 'react-icons/tb';
@@ -107,6 +107,10 @@ const Skills = () => {
         <div className={styles.logo} data-aos={"zoom-in-up"}>
          <TbBrandTailwind  className={styles.photo}/>
           <Text fontSize={['sm','md','lg']}>Tailwind CSS</Text>
+        </div>
+        <div className={styles.logo} data-aos={"zoom-in-up"}>
+         <SiSocketdotio  className={styles.photo}/>
+          <Text fontSize={['sm','md','lg']}>Socket IO</Text>
         </div>
       </div>
     </div>
