@@ -8,11 +8,12 @@ import image5 from "../Images/ckockify.png";
 import image6 from "../Images/myntra.png";
 import image7 from "../Images/connect.png";
 import image8 from "../Images/zuruni.png";
+import dtime from "../Images/dtime.png"
 
 import { AiFillGithub } from "react-icons/ai";
 // import { SiRedux } from 'react-icons/si';
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { FaHtml5, FaNodeJs,FaVuejs,FaBootstrap } from "react-icons/fa";
+import { FaHtml5, FaNodeJs, FaVuejs, FaBootstrap } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io";
@@ -23,6 +24,7 @@ import { DiMongodb } from "react-icons/di"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { ScreenContext } from "../screenContext/ScreenContext";
+// import { RiNextjsFill } from "react-icons/ri";
 import { Tooltip } from "@chakra-ui/react";
 
 const Projects = () => {
@@ -40,6 +42,35 @@ const Projects = () => {
       <h1 className={styles.text}>Projects</h1>
       <div className={styles.project_list}>
         {/* all projects */}
+
+        <div data-aos={"zoom-in-up"}>
+          <img src={dtime} alt="max_fashion" className={styles.heroimg} />
+          <div className={styles.project_info}>
+            <h2>Dtechtive</h2>
+            <ul style={{ listStyleType: "square" }}>
+              <li>This is a real life project</li>
+              <li>This is a build by 7-8 member teams</li>
+              <li>Dtechtive is a search engine that helps people find datasets from websites that existing search engines fail to index.</li>
+              <li>
+                Payment gateway
+                intregration and user notification mail and all others types of real life
+                functionlity are created
+              </li>
+              <li>
+                Nest JS, PostgreSQL, Tailwind are used in this projects.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+
+            <a href="https://zuruni.io/" target={"_blank"}>
+              <button>
+                <HiOutlineExternalLink fontSize={"large"} />
+              </button>
+            </a>
+          </div>
+        </div>
 
         <div data-aos={"zoom-in-up"}>
           <img src={image8} alt="max_fashion" className={styles.heroimg} />
@@ -64,7 +95,7 @@ const Projects = () => {
             <h1>Techstack :</h1>
             <div>
               <DiMongodb />
-              <DiMysql/>
+              <DiMysql />
               <FaVuejs />
               <FaBootstrap />
             </div>
@@ -77,55 +108,6 @@ const Projects = () => {
               </button>
             </a> */}
             <a href="https://zuruni.io/" target={"_blank"}>
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div>
-
-
-        <div data-aos={"zoom-in-up"}>
-          <img src={image7} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Full stack real time chat application</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>
-                This is a solo project which takes almost 3 weeks to create
-              </li>
-              <li>Can be used for Multi users by using socket io</li>
-              <li>
-                Login, signup, one on one chat and group chat and search
-                functionlities are created
-              </li>
-              <li>
-                NodeJS,Express js, MongoDB, Socket io, React, context-api,
-                Chakra ui are used used to build this project
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <DiMongodb />
-              <FaNodeJs />
-              <SiExpress />
-              <RiReactjsLine />
-              <SiChakraui />
-            </div>
-          </div>
-
-          <div>
-            <a href="https://github.com/amit05c/connect_app" target={"_blank"}>
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a
-              href="https://connect-app-backend.onrender.com/"
-              target={"_blank"}
-            >
               <button>
                 <HiOutlineExternalLink fontSize={"large"} />
               </button>
@@ -174,196 +156,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div data-aos={"zoom-in-up"}>
-          <img src={image4} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Uboric Clone</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>This is a collaborative project of four members</li>
-              <li>Login, signup, filter,sort,cart funtionality are active</li>
-              <li>Filter and sort functionality are made by me.</li>
-            </ul>
-          </div>
 
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <RiReactjsLine />
-              <SiRedux />
-              <SiChakraui />
-            </div>
-          </div>
 
-          <div>
-            <a href="https://github.com/amit05c/Uboric_Clone" target={"_blank"}>
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a href="https://uboric-deploy.vercel.app/" target={"_blank"}>
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div>
-
-        {/* <div data-aos={"zoom-in-up"}>
-          <img src={image5} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Clockify Clone</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>Clockify is time time tracker website.</li>
-              <li>
-                This is a collaborative Fullstack project of five members.
-              </li>
-              <li>Login, signup, delete, filter functionlities are created</li>
-              <li>In Dashboard page data are show as chart format</li>
-              <li>
-                NodeJS,Express js, MongoDB, React, Chakra ui are used used to
-                build this project
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <FaNodeJs />
-              <SiExpress />
-              <DiMongodb />
-              <RiReactjsLine />
-              <SiChakraui />
-            </div>
-          </div>
-
-          <div>
-            <a
-              href="https://github.com/amit05c/clockify_clone"
-              target={"_blank"}
-            >
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a
-              href="https://bespoke-rugelach-a7fa44.netlify.app/"
-              target={"_blank"}
-            >
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div> */}
-
-        
-
-        <div data-aos={"zoom-in-up"}>
-          <img src={image1} alt="max_fashion" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Max Fashion clone</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>Max fashion is an online e-comerce website.</li>
-              <li>Total time takes: 5days</li>
-              <li>Login, signup, filter,sort,cart funtionality are active</li>
-              <li>React, Chakra ui are used used to build this project</li>
-            </ul>
-          </div>
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <RiReactjsLine />
-              <SiChakraui />
-            </div>
-          </div>
-
-          <div>
-            <a
-              href="https://github.com/amit05c/chief-shape-6531"
-              target={"_blank"}
-            >
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a href="https://chief-shape-6531.vercel.app/" target={"_blank"}>
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div>
-
-        <div data-aos={"zoom-in-up"}>
-          <img src={image2} alt="mythressa_clone" className={styles.heroimg} />
-          <div className={styles.project_info}>
-            <h2>Mythresa clone</h2>
-            <ul style={{ listStyleType: "square" }}>
-              <li>
-                It is cloned in construct week project. This is a collaborative
-                project of 5 members.
-              </li>
-              <li>
-                Login,signup,Filter,sort,cart,and payment and opt authentication
-                funtionalities are built.
-              </li>
-              <li>
-                Html, CSS, Javascript, Bootstrap are used used to build this
-                project
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-              <FaHtml5 />
-              <IoLogoCss3 />
-              <IoLogoJavascript />
-              <SiBootstrap />
-            </div>
-          </div>
-
-          <div>
-            <a href="https://github.com/rajpawanku/Mytheresa" target={"_blank"}>
-              <button>
-                <AiFillGithub fontSize={"large"} />
-              </button>
-            </a>
-            <a
-              href="https://marvelous-torrone-9bbbc5.netlify.app/index.html"
-              target={"_blank"}
-            >
-              <button>
-                <HiOutlineExternalLink fontSize={"large"} />
-              </button>
-            </a>
-          </div>
-        </div>
-        {/* 
-        <div data-aos={width>920 ? "flip-up" : ""} >
-        <img src={image3} alt="apple_clone" width={"100%"} />
-          <h2 style={{backgroundColor:"whitesmoke", fontWeight:"bolder"}}>Apple cone</h2>
-          <p style={{backgroundColor:"whitesmoke", fontWeight:"bold"}}>This is a collaborative project of 5 members. <br>
-          </br>
-          Login,signup, filter functionality are developed.
-          </p>
-          <div className={styles.techstack}>
-            <h1>Techstack :</h1>
-            <div>
-            <FaHtml5/>
-            <IoLogoCss3/>
-            <IoLogoJavascript/>
-            </div>
-            
-          </div>
-          <div>
-          <a href="https://github.com/harshalpatil655/Apple-Clone-Masai" target={"_blank"}><button><AiFillGithub fontSize={"large"} /></button></a>
-          <a href="https://github.com/harshalpatil655/Apple-Clone-Masai" target={"_blank"}><button><HiOutlineExternalLink fontSize={"large"}/></button></a>
-          </div>
-        </div> */}
       </div>
     </div>
   );
