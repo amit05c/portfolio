@@ -21,7 +21,8 @@ const About = () => {
       <div data-aos={"zoom-in-up"}>
 
       <p  className={styles.text}>
-      Amit Ghosh, An Aspiring Frontend Developer. Looking forward to applying and enhancing my skills and knowledge as a developer.
+      {/* Amit Ghosh, An Aspiring Frontend Developer. Looking forward to applying and enhancing my skills and knowledge as a developer. */}
+      Frontend Developer with 2 years of experience, passionate about creating dynamic and user-friendly web applications. Looking forward to applying my skills in modern web technologies while continuously expanding my knowledge and expertise as a developer.
       </p>
 
       <p className={styles.email}>Drop a mail @  amitghosh0595c@gmail.com </p>
