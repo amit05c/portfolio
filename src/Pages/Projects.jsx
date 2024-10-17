@@ -79,7 +79,7 @@ const Projects = () => {
                 <AiFillGithub fontSize={"large"} />
               </button>
             </a>
-            <a href="https://myntra-blue.vercel.app/" target={"_blank"}>
+            <a href="https://myntra-clone-delta-three.vercel.app/" target={"_blank"}>
               <button>
                 <HiOutlineExternalLink fontSize={"large"} />
               </button>
